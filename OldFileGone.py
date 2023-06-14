@@ -3,15 +3,14 @@ import time
 
 def main():
 
-    dir_path = r"C:\Users\Administrator\Desktop\YT"
-    hour = 3
-    loop_sleep_time = 1
+    dir_path = r"YourDirPath"
+    hour = 3 #int
+    loop_sleep_time = 1 #int
 
     delete_file(dir_path, hour)
     time.sleep(hour_to_Second(loop_sleep_time))
 
 def delete_file(dir_path, hour):
-    time.sleep(3600)
     for file_name in os.listdir(dir_path):
 
         file_path = os.path.join(dir_path, file_name)
