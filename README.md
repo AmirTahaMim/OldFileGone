@@ -10,9 +10,9 @@ To use OldFileGone with Loop, simply download the oldfilegone_loop.py file and s
 
 To use this script, follow the steps below:
 
-1. Open the `delete_files.py` file in a text editor.
+1. Open the `OldFileGone.py` file in a text editor.
 2. Modify the `dir_path`, `loop_sleep_time and` `hour` variables in the `main()` function to specify the directory path and the number of hours that files older than which should be deleted, respectively.
-3. Save the changes to the `delete_files.py` file.
+3. Save the changes to the `OldFileGone.py` file.
 4. Open a command prompt or terminal and navigate to the directory containing the `OldFileGone.py` file.
 5. Run the script by typing `python OldFileGone.py` in the command prompt or terminal.
 
