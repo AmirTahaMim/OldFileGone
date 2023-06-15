@@ -25,7 +25,7 @@ def delete_file(dir_path, hour):
                 os.remove(file_path)
                 print(f"File {file_name} deleted.")
             else:
-                print(f"File {file_name} is not older than 1 hour.")
+                print(f"File {file_name} is not old enough.")
 
 def hour_to_Second(hour):
     return hour * 3600
