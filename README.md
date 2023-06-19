@@ -4,7 +4,7 @@ This is a Python script that deletes files in a specified directory that are old
 
 ## Installation
 
-To use OldFileGone with Loop, simply download the oldfilegone_loop.py file and save it to a directory of your choice. Make sure you have Python 3 installed on your system.
+To use OldFileGone with Loop, simply download the oldfilegone.py file and save it to a directory of your choice. Make sure you have Python 3 installed on your system.
 
 ## Usage
 
