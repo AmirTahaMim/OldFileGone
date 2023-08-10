@@ -6,9 +6,9 @@ def main():
     dir_path = r"YourDirPath"
     hour = 3 #int
     loop_sleep_time = 1 #int
-
-    delete_file(dir_path, hour)
-    time.sleep(hour_to_Second(loop_sleep_time))
+    while 1:
+        delete_file(dir_path, hour)
+        time.sleep(hour_to_Second(loop_sleep_time))
 
 def delete_file(dir_path, hour):
     for file_name in os.listdir(dir_path):
